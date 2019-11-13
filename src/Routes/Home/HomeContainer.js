@@ -28,7 +28,7 @@ export default class HomeContainer extends Component {
         popular
       });
     } catch {
-      console.log("Can't find movie information");
+      this.setState({ error: "Can't find Movie information" });
     } finally {
       this.setState({
         loading: false

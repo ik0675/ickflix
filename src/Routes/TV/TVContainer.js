@@ -28,7 +28,7 @@ export default class TVContainer extends Component {
         airing
       });
     } catch {
-      console.log("Can't find TV information");
+      this.setState({ error: "Can't find TV information" });
     } finally {
       this.setState({
         loading: false
