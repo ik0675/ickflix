@@ -20,11 +20,18 @@ export default class SearchContainer extends Component {
 
   searchByTerm = async () => {
     const { searchTerm } = this.state;
+    this.setState({ loading: true });
     try {
-      const movieResults = await movieAPI.search(searchTerm);
-      const showResults = await tvAPI.search(searchTerm);
-      console.log(movieResults, showResults);
-      this.setState({ loading: true });
+      const {
+        data: { results: movieResults }
+      } = await movieAPI.search(searchTerm);
+      const {
+        data: { results: tvResults }
+      } = await tvAPI.search(searchTerm);
+      this.setState({
+        movieResults,
+        tvResults
+      });
     } catch {
       this.setState({ error: "Can't find results." });
     } finally {
@@ -43,6 +50,7 @@ export default class SearchContainer extends Component {
         searchTerm={searchTerm}
         error={error}
         loading={loading}
+        handleSubmit={this.handleSubmit}
       />
     );
   }
