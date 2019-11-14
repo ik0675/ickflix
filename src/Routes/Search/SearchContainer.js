@@ -43,7 +43,7 @@ export default class SearchContainer extends Component {
         tvResults
       });
     } catch {
-      this.setState({ error: "Can't find results." });
+      this.setState({ error: "Can't find search results." });
     } finally {
       this.setState({
         loading: false
