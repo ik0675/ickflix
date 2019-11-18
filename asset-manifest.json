@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/ickflix/static/js/main.3b3f98a7.chunk.js",
+    "main.js.map": "/ickflix/static/js/main.3b3f98a7.chunk.js.map",
+    "runtime-main.js": "/ickflix/static/js/runtime-main.f74bc9d6.js",
+    "runtime-main.js.map": "/ickflix/static/js/runtime-main.f74bc9d6.js.map",
+    "static/js/2.1d600357.chunk.js": "/ickflix/static/js/2.1d600357.chunk.js",
+    "static/js/2.1d600357.chunk.js.map": "/ickflix/static/js/2.1d600357.chunk.js.map",
+    "index.html": "/ickflix/index.html",
+    "precache-manifest.7558b8fd0167f1a6a2e23d7b98cb2cb3.js": "/ickflix/precache-manifest.7558b8fd0167f1a6a2e23d7b98cb2cb3.js",
+    "service-worker.js": "/ickflix/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f74bc9d6.js",
+    "static/js/2.1d600357.chunk.js",
+    "static/js/main.3b3f98a7.chunk.js"
+  ]
+}
