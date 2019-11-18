@@ -1,9 +1,11 @@
 # ICKFLIX
 
-- [ ] HOME
-- [ ] TV Shows
-- [ ] Search
-- [ ] Detail
+- Official Website : https://ik0675.github.io/ickflix
+
+* [ ] HOME
+* [ ] TV Shows
+* [ ] Search
+* [ ] Detail
 
 # API
 
@@ -17,3 +19,9 @@
 - [x] Movie Detail
 
 - [x] Search (Movie, TV)
+
+# Need to Improve
+
+- [ ] IMDB Link
+- [ ] 3 Tabs for Details (Youtube Videos, Production Company, Countries)
+- [ ] Show seasons and creators
